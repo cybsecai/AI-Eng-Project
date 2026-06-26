@@ -70,16 +70,16 @@ This document outlines the formalized user behavioral models mapping consumer in
 An abstraction of operational frequencies against required customization detail scales establishes four core enterprise customer vectors:
 
 ```text
-                  HIGH METADATA DETAIL REQUIREMENT
-                                 ?
-                                 ¦
-     Bespoke High-Value Client   ¦   Institutional Account
-     (Low Frequency / High Detail)¦   (High Frequency / High Detail)
-                                 ¦
-  ?------------------------------+------------------------------? HIGH TRANSACTIONAL
-                                 ¦                                    FREQUENCY
-     Transactional Consumer      ¦   Administrative Systems Operator
-     (Low Frequency / Low Detail)¦   (High Frequency / Low Detail)
-                                 ¦
-                                 ?
-                   LOW METADATA DETAIL REQUIREMENT
+                              HIGH METADATA DETAIL REQUIREMENT
+                                             ?
+                                             ¦
+                 Bespoke High-Value Client   ¦   Institutional Account
+                 (Low Frequency / High Detail)¦   (High Frequency / High Detail)
+                                             ¦
+Low           ?------------------------------+------------------------------? HIGH TRANSACTIONAL
+TRANSACTIONAL                                ¦                                    FREQUENCY
+FREQUENCY        Transactional Consumer      ¦   Administrative Systems Operator
+                 (Low Frequency / Low Detail)¦   (High Frequency / Low Detail)
+                                             ¦
+                                             ?
+                               LOW METADATA DETAIL REQUIREMENT
