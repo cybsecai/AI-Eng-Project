@@ -64,6 +64,7 @@ An abstraction of operational frequencies against required customization detail 
                                                      ?
                                        LOW METADATA DETAIL REQUIREMENT
 
+''''text
                                        
 # 1. Purge any partial structures and build the fresh directory architecture
 Remove-Item -Recurve -Force -ErrorAction SilentlyContinue -Path "architecture", "governance", "verification", "README.md"
