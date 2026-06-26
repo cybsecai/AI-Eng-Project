@@ -53,19 +53,19 @@ The following quadrant chart maps operational transaction frequencies against me
 
 ```mermaid
 quadrantChart
-    title Metadata Detail vs. Transactional Frequency
-    x-axis Low Transactional Frequency --> High Transactional Frequency
-    y-axis Low Metadata Requirement --> High Metadata Requirement
-    quadrant-1 Institutional Account
-    quadrant-2 Bespoke High-Value Client
-    quadrant-3 Transactional Consumer
-    quadrant-4 Administrative Systems Operator
-    Bespoke High-Value Client: [0.25, 0.75]
-    Institutional Account: [0.75, 0.75]
-    Transactional Consumer: [0.25, 0.25]
-    Administrative Systems Operator: [0.75, 0.25]
+    title "Metadata Detail vs. Transactional Frequency"
+    x-axis "Low Transactional Frequency" --> "High Transactional Frequency"
+    y-axis "Low Metadata Requirement" --> "High Metadata Requirement"
+    quadrant-1 "Institutional Account"
+    quadrant-2 "Bespoke High-Value Client"
+    quadrant-3 "Transactional Consumer"
+    quadrant-4 "Administrative Systems Operator"
+    "Bespoke High-Value Client": [0.25, 0.75]
+    "Institutional Account": [0.75, 0.75]
+    "Transactional Consumer": [0.25, 0.25]
+    "Administrative Systems Operator": [0.75, 0.25]
 
-'''text    
+```text    
     "Bespoke High-Value Client": [0.25, 0.75]
     "Institutional Account": [0.75, 0.75]
     "Transactional Consumer": [0.25, 0.25]
