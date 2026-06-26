@@ -65,11 +65,7 @@ quadrantChart
     "Transactional Consumer": [0.25, 0.25]
     "Administrative Systems Operator": [0.75, 0.25]
 
-```text    
-    "Bespoke High-Value Client": [0.25, 0.75]
-    "Institutional Account": [0.75, 0.75]
-    "Transactional Consumer": [0.25, 0.25]
-    "Administrative Systems Operator": [0.75, 0.25]                                   
+```text                                       
   $$                                    
                                       HIGH METADATA DETAIL REQUIREMENT
                                                      ?
