@@ -49,20 +49,20 @@ This behavioral matrix traces a high-velocity user interaction loop transitionin
 
 An abstraction of operational frequencies against required customization detail scales establishes four core enterprise customer vectors:
 
-```text
-                  HIGH METADATA DETAIL REQUIREMENT
-                                 ?
-                                 ¦
-     Bespoke High-Value Client   ¦   Institutional Account
-     (Low Frequency / High Detail)¦   (High Frequency / High Detail)
-                                 ¦
-  ?------------------------------+------------------------------? HIGH TRANSACTIONAL
-                                 ¦                                    FREQUENCY
-     Transactional Consumer      ¦   Administrative Systems Operator
-     (Low Frequency / Low Detail)¦   (High Frequency / Low Detail)
-                                 ¦
-                                 ?
-                   LOW METADATA DETAIL REQUIREMENT
+                    
+                                      HIGH METADATA DETAIL REQUIREMENT
+                                                     ?
+                                                     ¦
+                         Bespoke High-Value Client   ¦   Institutional Account
+                         (Low Frequency / High Detail)¦   (High Frequency / High Detail)
+                                                     ¦
+   Less Transactional ?------------------------------+------------------------------? HIGH TRANSACTIONAL
+          Frequency                                  ¦                                    FREQUENCY
+                         Transactional Consumer      ¦   Administrative Systems Operator
+                         (Low Frequency / Low Detail)¦   (High Frequency / Low Detail)
+                                                     ¦
+                                                     ?
+                                       LOW METADATA DETAIL REQUIREMENT
 # 1. Purge any partial structures and build the fresh directory architecture
 Remove-Item -Recurve -Force -ErrorAction SilentlyContinue -Path "architecture", "governance", "verification", "README.md"
 New-Item -ItemType Directory -Force -Path "architecture", "governance", "verification"
