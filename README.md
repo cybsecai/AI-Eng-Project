@@ -48,8 +48,8 @@ This behavioral matrix traces a high-velocity user interaction loop transitionin
 ## 3. User Segmentation Framework Matrix
 
 An abstraction of operational frequencies against required customization detail scales establishes four core enterprise customer vectors:
-   ''''text                                  
-                                      
+                                   
+  $$                                    
                                       HIGH METADATA DETAIL REQUIREMENT
                                                      ?
                                                      ¦
@@ -64,7 +64,7 @@ An abstraction of operational frequencies against required customization detail 
                                                      ?
                                        LOW METADATA DETAIL REQUIREMENT
 
-''''text
+$$
                                        
 # 1. Purge any partial structures and build the fresh directory architecture
 Remove-Item -Recurve -Force -ErrorAction SilentlyContinue -Path "architecture", "governance", "verification", "README.md"
