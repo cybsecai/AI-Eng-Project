@@ -51,9 +51,7 @@ An abstraction of operational frequencies against required customization detail 
 ### 📊 User Segmentation Framework Matrix
 The following quadrant chart maps operational transaction frequencies against metadata customization detail scales across the four core enterprise customer vectors:
 
-
-
-                                    
+$$
                                       HIGH METADATA DETAIL REQUIREMENT
                                                      ?
                                                      ¦
@@ -67,7 +65,7 @@ The following quadrant chart maps operational transaction frequencies against me
                                                      ¦
                                                      ?
                                        LOW METADATA DETAIL REQUIREMENT
-
+$$
 
                                        
 # 1. Purge any partial structures and build the fresh directory architecture
