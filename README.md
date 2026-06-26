@@ -48,6 +48,8 @@ This behavioral matrix traces a high-velocity user interaction loop transitionin
 ## 3. User Segmentation Framework Matrix
 
 An abstraction of operational frequencies against required customization detail scales establishes four core enterprise customer vectors:
+   ''''text                                  
+                                      
                                       HIGH METADATA DETAIL REQUIREMENT
                                                      ?
                                                      ¦
