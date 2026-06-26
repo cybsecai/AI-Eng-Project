@@ -4,13 +4,14 @@
 This document outlines the formalized user behavioral models mapping consumer intent to systemic interface triggers. All retail workflows have been abstracted into high-concurrency transaction architectures to align with enterprise performance tracking.
 
 ---
+Goal: provide a hassle-free, confident and guided experience for customer needs. Whether the user is a panicked late-night shopper, an amateur buyer, a corporate executive looking for recurring corporate arrangements, or an anxious detail-oriented wedding customer, the system should guide them from uncertainty to confirmed delivery with minimal anxiety. It will do this through intentional redundancy: multiple UX pathways, such as visual navigation, text search and conversational AI, that can lead to the same outcome and support different cognitive styles. Pages will be themed by occasion and emotion, with clear product images, product specifications, estimated delivery/pick-up dates and visible availability.
 
 ## 1. Abstracted Enterprise User Stories (US1 - US13)
 
 ### Epic 1: Dynamic Intent & Parameter Filtering
 * **US1 (Intent Classification Adaptive Routing):** As a domain-agnostic asset buyer unfamiliar with technical taxonomy, I need an interface clustered by explicit intent and situational emotion classifications so that I can bypass manual catalog research and isolate target items immediately.
 * **US2 (Strict Financial Ceiling Filtration):** As a cost-constrained transaction profile, I need the interface to programmatically suppress all catalog matrices scaling outside my target budget parameters to prevent checkout friction and analysis paralysis.
-* **US3 (Granular Specification Transparency):** As a specification-driven buyer, I require access to precise object metadata records—including absolute physical dimension variables, high-fidelity visual representations, and explicit compositional parameters—to validate purchase security.
+* **US3 (Granular Specification Transparency):** As a specification-driven buyer, I require access to precise object metadata recordsâ€”including absolute physical dimension variables, high-fidelity visual representations, and explicit compositional parametersâ€”to validate purchase security.
 * **US4 (Asymmetric Low-Sensory Corridor Navigation):** As a crisis-affected or low-sensory user profile, I require a dedicated interface partition characterized by muted visual states, low-contrast typography, and the total programmatic suppression of promotional overlays, popups, and non-essential script animations.
 
 ### Epic 2: Real-Time Cache Integrity & Concurrency Controls
@@ -51,15 +52,15 @@ An abstraction of operational frequencies against required customization detail 
 ```text
                   HIGH METADATA DETAIL REQUIREMENT
                                  ?
-                                 ¦
-     Bespoke High-Value Client   ¦   Institutional Account
-     (Low Frequency / High Detail)¦   (High Frequency / High Detail)
-                                 ¦
+                                 Â¦
+     Bespoke High-Value Client   Â¦   Institutional Account
+     (Low Frequency / High Detail)Â¦   (High Frequency / High Detail)
+                                 Â¦
   ?------------------------------+------------------------------? HIGH TRANSACTIONAL
-                                 ¦                                    FREQUENCY
-     Transactional Consumer      ¦   Administrative Systems Operator
-     (Low Frequency / Low Detail)¦   (High Frequency / Low Detail)
-                                 ¦
+                                 Â¦                                    FREQUENCY
+     Transactional Consumer      Â¦   Administrative Systems Operator
+     (Low Frequency / Low Detail)Â¦   (High Frequency / Low Detail)
+                                 Â¦
                                  ?
                    LOW METADATA DETAIL REQUIREMENT
 # 1. Purge any partial structures and build the fresh directory architecture
